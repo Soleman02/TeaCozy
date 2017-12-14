@@ -6,7 +6,7 @@ body {
 /*Start Header Components */
 header {
   height: 110px;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #ffffff;
   height: 69px;
   position: fixed;
   width: 100%;
@@ -222,6 +222,7 @@ p {
   flex-flow: column nowrap;
   justify-content: center;
   align-content: center;
+  border-top: 3px solid #ffffff;
 }
 
 #footer {
@@ -232,10 +233,14 @@ p {
   margin-top: -110px;
 }
 
-#footerwordbox {
+.footerwordbox {
   margin: 20px 0;
 }
 
+#website {
+  width: 30%;
+  margin-bottom: -20px
+}
 
 #copyright {
   width: 100%;
